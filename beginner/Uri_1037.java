@@ -9,7 +9,7 @@ public class Uri_1037 {
 
         num = teclado.nextDouble();
 
-        if (num > 0 && num <= 25) {
+        if (num >= 0 && num <= 25) {
             System.out.println("Intervalo [0,25]");
         } else if (num > 25 && num <= 50) {
             System.out.println("Intervalo (25,50]");
