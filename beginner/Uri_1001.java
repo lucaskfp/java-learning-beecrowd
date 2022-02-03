@@ -1,3 +1,4 @@
+package beginner;
 import java.util.Scanner;
 
 public class Uri_1001 {
