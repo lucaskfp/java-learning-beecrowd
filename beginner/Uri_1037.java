@@ -9,14 +9,14 @@ public class Uri_1037 {
 
         num = teclado.nextDouble();
 
-        if (num >= 0 && num <= 25) {
-            System.out.println("Intervalo [0, 25]");
+        if (num > 0 && num <= 25) {
+            System.out.println("Intervalo [0,25]");
         } else if (num > 25 && num <= 50) {
-            System.out.println("Intervalo (25, 50]");
+            System.out.println("Intervalo (25,50]");
         } else if (num > 50 && num <= 75) {
-            System.out.println("Intervalo (50, 75]");
+            System.out.println("Intervalo (50,5]");
         } else if (num > 75 && num <= 100) {
-            System.out.println("Intervalo (75, 100]");
+            System.out.println("Intervalo (75,100]");
         } else {
             System.out.println("Fora de intervalo");
         }
