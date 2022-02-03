@@ -1,17 +1,16 @@
 import java.util.Scanner;
 
-public class Uri_1001 {
+public class Uri_1003 {
     public static void main(String args[]) {
-        int a, b, x;
+        int a, b, SOMA;
 
         Scanner teclado = new Scanner(System.in);
 
         a = teclado.nextInt();
         b = teclado.nextInt();
+        SOMA = a + b;
 
-        x = a + b;
-
-        System.out.println("X = " + x);
+        System.out.println("SOMA = " + SOMA);
 
         teclado.close();
     }
