@@ -4,15 +4,12 @@ public class Uri_1114 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
 
-        int senha;
+        int senha = teclado.nextInt();
 
-        while (1 < 10) {
+        while (senha != 2002) {
+            System.out.println("Senha Invalida");
+
             senha = teclado.nextInt();
-            if (senha == 2002) {
-                break;
-            } else {
-                System.out.println("Senha Invalida");
-            }
         }
 
         System.out.println("Acesso Permitido");
