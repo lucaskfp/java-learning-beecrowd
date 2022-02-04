@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.print.event.PrintEvent;
-
 public class Uri_1074 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
