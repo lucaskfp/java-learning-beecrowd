@@ -45,13 +45,13 @@ public class Posto {
 		if (tipoAbastecimento == 1) {
 			double quantidade = teclado.nextDouble();
 			bombas[opcaoCombustivel - 1].abastecerPorLitros(quantidade);
-			bombas[opcaoCombustivel - 1].monstarRecibo();
+			bombas[opcaoCombustivel - 1].imprimirRecibo();
 		}
 
 		if (tipoAbastecimento == 2) {
 			double valor = teclado.nextDouble();
 			bombas[opcaoCombustivel - 1].abastecerPorValor(valor);
-			bombas[opcaoCombustivel - 1].monstarRecibo();
+			bombas[opcaoCombustivel - 1].imprimirRecibo();
 		}
 
 		teclado.close();

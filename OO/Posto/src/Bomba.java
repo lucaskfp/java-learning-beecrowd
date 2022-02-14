@@ -31,7 +31,7 @@ public class Bomba {
 		this.valorTotal = valor;
 	}
 
-	public void monstarRecibo() {
+	public void imprimirRecibo() {
 		System.out.println("==================== Recibo ===================");
 		System.out.println("Combustivel: " + combustivel.getNome());
 		System.out.printf("Preço litro: R$ %.3f \n", combustivel.getPreco());
